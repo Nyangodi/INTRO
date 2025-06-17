@@ -1,0 +1,17 @@
+body
+{
+    background-color:rgb(17, 192, 57)
+ font-family: Arial, sans-serif;
+    color: red;
+    margin: 0%;
+    padding: 1%;
+
+}
+    .container
+    {
+        background-color: rgb(177, 143, 31);
+    }
+    .container1 
+    {
+        background-color: rgb(172, 22, 127);
+    }
