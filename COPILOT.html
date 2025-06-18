@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grocery Store - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f8f8f8; }
+        header { background: #4CAF50; color: white; padding: 20px 0; text-align: center; }
+        nav { background: #388E3C; padding: 10px 0; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .hero { background: #e8f5e9; padding: 40px 20px; text-align: center; }
+        .hero h2 { margin-top: 0; }
+        .categories { display: flex; flex-wrap: wrap; justify-content: center; margin: 30px 0; }
+        .category { background: white; border-radius: 8px; box-shadow: 0 2px 8px #ddd; margin: 15px; padding: 20px; width: 200px; text-align: center; }
+        .category img { width: 80px; height: 80px; object-fit: contain; }
+        footer { background: #333; color: #fff; text-align: center; padding: 15px 0; margin-top: 40px; }
+        @media (max-width: 600px) {
+            .categories { flex-direction: column; align-items: center; }
+            .category { width: 90%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FreshMart Grocery</h1>
+        <p>Your one-stop shop for fresh groceries!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Deals</a>
+        <a href="#">Contact</a>
+        <a href="#">Cart</a>
+    </nav>
+    <section class="hero">
+        <h2>Welcome to FreshMart!</h2>
+        <p>Discover fresh produce, quality meats, and daily essentials delivered to your door.</p>
+        <a href="#" style="background:#4CAF50;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;">Shop Now</a>
+    </section>
+    <section>
+        <h2 style="text-align:center;">Shop by Category</h2>
+        <div class="categories">
+            <div class="category">
+                <img src="https://img.icons8.com/color/96/000000/apple.png" alt="Fruits">
+                <h3>Fruits</h3>
+            </div>
+            <div class="category">
+                <img src="https://img.icons8.com/color/96/000000/broccoli.png" alt="Vegetables">
+                <h3>Vegetables</h3>
+            </div>
+            <div class="category">
+                <img src="https://img.icons8.com/color/96/000000/milk-bottle.png" alt="Dairy">
+                <h3>Dairy</h3>
+            </div>
+            <div class="category">
+                <img src="https://img.icons8.com/color/96/000000/chicken.png" alt="Meat">
+                <h3>Meat</h3>
+            </div>
+            <div class="category">
+                <img src="https://img.icons8.com/color/96/000000/bread.png" alt="Bakery">
+                <h3>Bakery</h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 FreshMart Grocery. All rights reserved.
+    </footer>
+</body>
+</html>
