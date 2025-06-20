@@ -2,7 +2,7 @@ body {
     background-color: blueviolet;
     background-image: url(nyanm.jpg);
     background-image: no repeat;
-
+background-repeat: no-repeat;
 }
 
 h1 {
@@ -28,5 +28,4 @@ p {
     border-radius: .5rem;
     box-shadow: rgb(159, 197, 23);
     ;
-    background-image: url(nyanm.jpg);
-}
+   

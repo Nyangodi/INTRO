@@ -1,0 +1,31 @@
+div
+{background-color: burlywood;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    border: 24px solid rgb(17, 218, 61);
+
+
+
+}
+
+.submit{
+    background-color: crimson;
+    width: 100%;
+    padding: .16rem;
+    border-radius: .5rem;
+    border: 2px solid rgba(50, 5, 153, 0.863);
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: rgb(243, 15, 140);
+}
+
+.text{
+    background-color: rgb(181, 211, 9);
+    border-radius: .5rem;
+    padding: .5rem;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    margin: 10px;
+}
