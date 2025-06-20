@@ -3,11 +3,12 @@ div
     padding: 1.5rem;
     border-radius: .5rem;
     border: 24px solid rgb(17, 218, 61);
+    
 
 
 
 }
-
+body{background-color: rgb(241, 147, 5);}
 .submit{
     background-color: crimson;
     width: 100%;
