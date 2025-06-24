@@ -1,0 +1,71 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+    color: rgb(13, 15, 11);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+
+}
+header{
+
+background-color: rgb(169, 147, 189);
+color: rgb(95, 81, 88);
+text-align: center;
+padding: .3rem;
+
+
+}
+
+nav a{
+
+    color: rgba(172, 22, 22, 0.774);
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+
+}
+
+.one{
+
+background-color: rgb(163, 219, 168);
+padding: 0.1rem;
+text-align: center;
+font-size: medium
+
+;
+
+}
+
+.two{
+
+background-color: palegreen;
+padding: 1rem;
+text-align: center;
+font-size: small;
+
+}
+
+.services{
+
+    color: rgb(7, 2, 53); 
+    font-size: 1.2rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+
+.service{
+
+background-color: royalblue;
+padding: 0rem;
+text-align: center;
+
+
+}
+
+

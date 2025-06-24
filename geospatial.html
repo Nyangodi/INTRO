@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geospatial Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f8fb;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        h1 {
+            margin: 0 0 0.5rem 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .gallery-item {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px) scale(1.02);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+        .caption {
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Geospatial Homepage</h1>
+        <p>Explore the beauty of our planet with stunning geospatial imagery</p>
+    </header>
+    <main>
+        <section class="gallery">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80" alt="Satellite View of Earth">
+                <div class="caption">Satellite View of Earth</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Mountain Terrain">
+                <div class="caption">Mountain Terrain</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80" alt="Desert Landscape">
+                <div class="caption">Desert Landscape</div>
+            </div>
+            <div class="gallery-item">
+                <img src="delta.jpeg" alt="River Delta">
+                <div class="caption">River Delta</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
